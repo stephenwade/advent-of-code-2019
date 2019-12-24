@@ -1,7 +1,7 @@
 with open("input.txt") as f:
-    input = [line.rstrip() for line in f.readlines()]
+    input_ = [line.rstrip() for line in f.readlines()]
 
-lines = [line.split(",") for line in input]
+lines = [line.split(",") for line in input_]
 lines = [[(instruction[0], int(instruction[1:])) for instruction in line] for line in lines]
 
 if len(lines) != 2:

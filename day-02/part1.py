@@ -1,6 +1,6 @@
 with open("input.txt") as f:
-    input = f.read().rstrip()
-    program = map(int, input.split(","))
+    input_ = f.read().rstrip()
+    program = map(int, input_.split(","))
 
     # 1202 program alarm
     program[1] = 12

@@ -1,11 +1,11 @@
 with open("input.txt") as f:
-    input = f.read().rstrip()
+    input_ = f.read().rstrip()
 
 target = 19690720
 
 for noun in range(99):
     for verb in range(99):
-        program = map(int, input.split(","))
+        program = map(int, input_.split(","))
         
         program[1] = noun
         program[2] = verb

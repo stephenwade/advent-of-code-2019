@@ -1,7 +1,7 @@
 with open("input.txt") as f:
-    input = f.read().rstrip()
+    input_ = f.read().rstrip()
 
-numbers = [int(x) for x in input.split('-')]
+numbers = [int(x) for x in input_.split('-')]
 if len(numbers) != 2:
     raise ValueError('expected two numbers')
 
