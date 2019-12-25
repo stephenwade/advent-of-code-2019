@@ -1,5 +1,5 @@
 with open("input.txt") as f:
-    input = [line.rstrip() for line in f.readlines()]
+    input_ = [line.rstrip() for line in f.readlines()]
 
 lines = [line.split(")") for line in input]
 orbits = [(line[0], line[1]) for line in lines]
